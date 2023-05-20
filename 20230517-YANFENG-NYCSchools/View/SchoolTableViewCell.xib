@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="189" id="KGk-i7-Jjw" customClass="SchoolTableViewCell" customModule="_0230517_YANFENG_NYCSchools" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="189"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="189"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jfi-H4-b1W">
+                        <rect key="frame" x="10" y="10" width="300" height="169"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Liberation Diploma Plus High School Liberation Diploma Plus High School" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VWh-J4-eNL">
+                                <rect key="frame" x="10" y="10" width="280" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="rNi-0f-ADC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <color key="textColor" name="AccentColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Leh-8g-dUu" userLabel="Location StackView">
+                                <rect key="frame" x="10" y="50" width="280" height="20"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dGC-Yg-pXJ">
+                                        <rect key="frame" x="0.0" y="1.9999999999999982" width="20" height="15.666666666666666"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="HZ4-pG-Rgy"/>
+                                            <constraint firstAttribute="width" constant="20" id="vna-4Y-WmC"/>
+                                        </constraints>
+                                        <imageReference key="image" image="location.north" catalog="system" symbolScale="small"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2865 West 19th Street, Brooklyn, NY 11224" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ef5-DU-htc">
+                                        <rect key="frame" x="20" y="0.0" width="260" height="20"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="dGC-Yg-pXJ" firstAttribute="top" secondItem="Leh-8g-dUu" secondAttribute="top" id="1J1-wg-0BJ"/>
+                                    <constraint firstItem="dGC-Yg-pXJ" firstAttribute="leading" secondItem="Leh-8g-dUu" secondAttribute="leading" id="GTu-xV-iyZ"/>
+                                    <constraint firstAttribute="height" constant="20" id="oVk-rI-71O"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="EuB-1v-ssl">
+                                <rect key="frame" x="10" y="70" width="280" height="80"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Overview:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ker-ym-1rk">
+                                        <rect key="frame" x="0.0" y="0.0" width="280" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="15" id="doh-UX-5ie"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hcB-Pd-PJr">
+                                        <rect key="frame" x="0.0" y="15" width="280" height="65"/>
+                                        <string key="text">The mission of Liberation Diploma Plus High School, in partnership with CAMBA, is to develop the student academically, socially, and emotionally. We will equip students with the skills needed to evaluate their options so that they can make informed and appropriate choices and create personal goals for success. Our year-round model (trimesters plus summer school) provides students the opportunity to gain credits and attain required graduation competencies at an accelerated rate. Our partners offer all students career preparation and college exposure. Students have the opportunity to earn college credit(s). In addition to fulfilling New York City graduation requirements, students are required to complete a portfolio to receive a high school diploma.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="1bg-id-RjK"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lIs-kg-tjs">
+                                <rect key="frame" x="193" y="150" width="97" height="10"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="10" id="yXR-fj-cyK"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Learn more" titleAlignment="leading">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="13"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="tertiarySystemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="EuB-1v-ssl" secondAttribute="trailing" constant="10" id="Gk9-Y0-cKH"/>
+                            <constraint firstAttribute="trailing" secondItem="Leh-8g-dUu" secondAttribute="trailing" constant="10" id="JbQ-gT-Y4j"/>
+                            <constraint firstItem="EuB-1v-ssl" firstAttribute="leading" secondItem="Jfi-H4-b1W" secondAttribute="leading" constant="10" id="NH6-Qo-50g"/>
+                            <constraint firstItem="lIs-kg-tjs" firstAttribute="top" secondItem="EuB-1v-ssl" secondAttribute="bottom" id="Ptd-1c-vNX"/>
+                            <constraint firstItem="Leh-8g-dUu" firstAttribute="leading" secondItem="Jfi-H4-b1W" secondAttribute="leading" constant="10" id="YCQ-AA-pMW"/>
+                            <constraint firstItem="Leh-8g-dUu" firstAttribute="top" secondItem="VWh-J4-eNL" secondAttribute="bottom" id="aDn-DJ-ibX"/>
+                            <constraint firstItem="EuB-1v-ssl" firstAttribute="top" secondItem="Leh-8g-dUu" secondAttribute="bottom" id="i47-pN-Fav"/>
+                            <constraint firstAttribute="trailing" secondItem="lIs-kg-tjs" secondAttribute="trailing" constant="10" id="j1K-7d-vIk"/>
+                            <constraint firstItem="VWh-J4-eNL" firstAttribute="leading" secondItem="Jfi-H4-b1W" secondAttribute="leading" constant="10" id="jwy-N4-2Ia"/>
+                            <constraint firstItem="VWh-J4-eNL" firstAttribute="top" secondItem="Jfi-H4-b1W" secondAttribute="top" constant="10" id="vbz-mN-1co"/>
+                            <constraint firstAttribute="trailing" secondItem="VWh-J4-eNL" secondAttribute="trailing" constant="10" id="vmq-NU-hpd"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                <constraints>
+                    <constraint firstItem="Jfi-H4-b1W" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="EWS-1P-dZa"/>
+                    <constraint firstAttribute="bottom" secondItem="Jfi-H4-b1W" secondAttribute="bottom" constant="10" id="O7S-Pf-u4r"/>
+                    <constraint firstItem="Jfi-H4-b1W" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="YIb-Rb-2Iv"/>
+                    <constraint firstAttribute="trailing" secondItem="Jfi-H4-b1W" secondAttribute="trailing" constant="10" id="dmH-5s-XGN"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="overviewLabel" destination="hcB-Pd-PJr" id="IcU-S3-lLe"/>
+                <outlet property="schoolLocationLabel" destination="ef5-DU-htc" id="OJj-iV-LrB"/>
+                <outlet property="schoolNameLabel" destination="VWh-J4-eNL" id="9jl-u5-d5h"/>
+            </connections>
+            <point key="canvasLocation" x="-24.427480916030532" y="70.774647887323951"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="location.north" catalog="system" width="110" height="128"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiarySystemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
